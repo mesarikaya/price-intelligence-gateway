@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web: info
+        cloud:
+          gateway: info
